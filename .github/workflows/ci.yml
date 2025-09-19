@@ -47,7 +47,7 @@ jobs:
     # - name: Build with Gradle 8.9
     #   run: gradle build
   test:
-    runs-On: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Running unit tests...
