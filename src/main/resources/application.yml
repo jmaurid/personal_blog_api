@@ -1,1 +1,7 @@
-spring.application.name=blog_personal_api
+spring:
+  application:
+    name: blog_personal_api
+
+server:
+  servlet:
+    context-path: /api
